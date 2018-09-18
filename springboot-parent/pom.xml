@@ -8,6 +8,7 @@
 
 	<modules>
 		<module>springboot-web</module>
+		<module>springboot-application</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
