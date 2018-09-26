@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 	// localhost/?name=ZBY
-	@RequestMapping(path = "/", method = RequestMethod.GET)
+	@RequestMapping(path = "/hello", method = RequestMethod.GET)
 	public String hello(String name) {
 		return "Hello," + name + "!";
 	}
