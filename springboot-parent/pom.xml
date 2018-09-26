@@ -9,6 +9,7 @@
 	<modules>
 		<module>springboot-web</module>
 		<module>springboot-application</module>
+		<module>springboot-ssm</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
