@@ -37,10 +37,10 @@ public class SpringFactoriesLoaderMain {
 		List<String> result = new ArrayList<String>();
 		while (urls.hasMoreElements()) {
 			URL url = urls.nextElement();
-			System.out.println(url);
+			// System.out.println(url);
 			Properties properties = PropertiesLoaderUtils.loadProperties(new UrlResource(url));
 			String factoryClassNames = properties.getProperty(clazz.getName());
-			System.out.println(factoryClassNames);
+			// System.out.println(factoryClassNames);
 			List<String> classNames = Arrays.asList(StringUtils.commaDelimitedListToStringArray(factoryClassNames));
 			classNames.stream().forEach(o -> System.out.println("---" + o));
 			result.addAll(classNames);
