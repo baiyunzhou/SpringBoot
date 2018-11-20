@@ -1,11 +1,8 @@
 package com.zby;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import org.springframework.util.StopWatch;
 
 public class StopWatchMain {
-	private static final Log log = LogFactory.getLog(StopWatchMain.class);
 
 	public static void main(String[] args) {
 		// 计时器

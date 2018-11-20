@@ -20,5 +20,5 @@ public class RetrieveApplicationContextInitializerMain {
 // org.springframework.boot.context.ConfigurationWarningsApplicationContextInitializer,
 // org.springframework.boot.context.ContextIdApplicationContextInitializer,
 // org.springframework.boot.context.config.DelegatingApplicationContextInitializer,
-// org.springframework.boot.web.context.ServerPortInfoApplicationContextInitializer
+// org.springframework.boot.context.embedded.ServerPortInfoApplicationContextInitializer
 // ]
